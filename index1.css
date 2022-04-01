@@ -1,0 +1,157 @@
+.suggestion-page__suggestionM__list {
+    background: #fff;
+    width: 100%;
+    color: #333;
+    z-index: 100;
+    border-top: 1px solid #e6e6e6
+}
+
+.suggestion-page__suggestionM__list li {
+    border-bottom: 1px solid #ccc
+}
+
+.suggestion-page__suggestionM__list li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 12px;
+    color: inherit
+}
+
+.suggestion-page__suggestionM__list li:hover {
+    background-color: #ccc
+}
+
+.suggestion-page__suggestionM__list__no {
+    padding: 12px
+}
+
+.paste-arrow {
+    margin: auto
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown
+}
+
+.suggestion,
+.suggestion.headerAutoSugg {
+    position: relative
+}
+
+.suggestion {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.suggestion__box {
+    position: relative;
+    width: 75%
+}
+
+.suggestion__list {
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 75%;
+    color: #333;
+    z-index: 100
+}
+
+.suggestion__list li {
+    border-bottom: 1px solid #ccc
+}
+
+.suggestion__list li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 12px;
+    color: inherit
+}
+
+.suggestion__list li:hover {
+    background-color: #ccc
+}
+
+.suggestion__list__no {
+    padding: 12px
+}
+
+.suggestion__button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #a3a6a9;
+    padding: 8px
+}
+
+.suggestion-page {
+    width: 100%;
+    background: #f1f3f6;
+    z-index: 2
+}
+
+.suggestion-page__back {
+    border: none;
+    color: #003380;
+    width: 10%;
+    background: #fff;
+    height: 50px;
+    text-align: center;
+    line-height: 46px
+}
+
+.suggestion-page__input {
+    width: calc(91% - 40px);
+    right: 0;
+    border: 0;
+    padding: 17px
+}
+
+.suggestion-page__clear {
+    color: #003380;
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    top: 0;
+    width: 40px
+}
+
+.suggestion-page__speaker {
+    line-height: 46px;
+    right: 0
+}
